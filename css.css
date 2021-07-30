@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.result{
+
+}
+label{
+    display: block;
+}
+input{
+    margin-bottom: 15px;
+}
+h1, h2{
+    text-align: center;
+}
+h1 span{
+    color:red;
+}
+code{
+    display: block;
+    width: 100%;
+    border: 1px solid gray;
+    margin: 20px  auto;
+    color: darkgreen;
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    -ms-border-radius: 20;
+    -o-border-radius: 20;
+}
+button{
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    background-color: darkgreen;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}

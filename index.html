@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMAIL signature generator for CARL SMITH</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    <h1>GMAIL signature generator for <span>CARL SMITH</span></h1>
+
+    <div class="main">
+        <div class="inputs">
+            <div>
+                <label for="name">name</label>
+                <input type="text" id="name">
+                <label for="job">job</label>
+                <input type="text" id="job">
+            </div>
+            <div>
+                <label for="Ophone">O phone</label>
+                <input type="text" id="Ophone">
+                <label for="Mphone">M phone</label>
+                <input type="text" id="Mphone">
+            </div>
+            <div>
+                <label for="mail">mail</label>
+                <input type="text" id="mail">
+            </div>
+            <div>
+                <label for="site">site</label>
+                <input type="text" id="site">
+            </div>
+            <div>
+                <label for="adress">adress</label>
+                <input type="text" id="adress">
+            </div>
+            <div>
+                <label for="linkedin">linkedin link</label>
+                <input type="text" id="linkedin">
+                <label for="facebook">facebook  link</label>
+                <input type="text" id="facebook">
+                <label for="insta">insta link</label>
+                <input type="text" id="insta">
+            </div>
+        </div>
+        <div class="result">
+            <div>
+                <table cellpadding="0" cellspacing="0" width="100%" style="font-family: sans-serif;">
+                    <td width='50px'></td>
+                    <td width='5px' bgcolor="lightgray"></td>
+                    <td height='6px'></td>
+                    <tr>
+                        <td width='50px'></td>
+                        <td width='5px' bgcolor="lightgray"></td>
+                        <td style='font-weight: bold; font-size: 16px;display: inline; margin-left: 5px;' id='putName'>Carl Smith</td>
+                    </tr>
+                    <tr>
+                        <td width='50px'></td>
+                        <td width='5px' bgcolor="lightgray"></td>
+                        <td style='font-size: 14px; display: inline; margin-left: 5px;' id='putJob'>Project Coordinator</td>
+                    </tr>
+                    <tr>
+                        <td width='50px'></td>
+                        <td width='5px' bgcolor="lightgray"></td>
+                        <td height='15px'></td>
+                    </tr>
+                    <tr>
+                        <td width='50px'></td>
+                        <td width='5px' bgcolor="lightgray"></td>
+                        <td style='font-size: 12px;'> <span style="font-weight: bold; margin-left: 10px;">O</span> <span  id='putOphone'>(614) 123-8360</span> <span style="font-weight: bold;">|</span> <span style="font-weight: bold;">M</span> <span id='putMphone'>(758) 123-4565</span></td>
+                    </tr>
+                    <tr>
+                        <td width='50px'></td>
+                        <td width='5px' bgcolor="lightgray"></td>
+                        <td style='font-size: 12px; margin-left: 10px; display: inline;'><a style="text-decoration: none; color: black;" href="mailto:carlm@landscapingco.ca" id='putMail'>carlm@landscapingco.ca</a></td>
+                    </tr>
+                    <tr>
+                        <td width='50px'></td>
+                        <td width='5px' bgcolor="lightgray"></td>
+                        <td style='font-size: 12px; margin-left: 10px; display: inline;'><a style="text-decoration: none; color: black;" href="http://www.landscapingco.ca/" id='putSite'>http://www.landscapingco.ca/</a></td>
+                    </tr>
+                    <tr>
+                        <td width='50px'></td>
+                        <td width='5px' bgcolor="lightgray"></td>
+                        <td style='font-size: 12px; margin-left: 10px; display: inline;' id='putAdress'>21234 River Rd, Edmonton, AB</td>
+                    </tr>
+                    <tr>
+                        <td width='50px'></td>
+                        <td width='5px' bgcolor="lightgray"></td>
+                        <td height='15px'></td>
+                    </tr>
+                    <tr>
+                        <td width='50px'></td>
+                        <td width='5px' bgcolor="lightgray"></td>
+                        <td style="display: inline; margin-right: 20px; margin-left: 6px;" width='40px'><a href="#" target="_tblank" id='putLinkedin'><img width='16px' src="https://image.flaticon.com/icons/png/512/124/124011.png" alt="linkedin"></a></td>
+                        <td style="display: inline; margin-right: 20px;" width='40px'><a href="#" target="_tblank" id='putFacebook'><img width='16px' src="https://image.flaticon.com/icons/png/512/1384/1384053.png" alt="facebook"></a></td>
+                        <td style="display: inline; margin-right: 20px;" width='40px'><a href="#" target="_tblank" id='putInsta'><img width='16px' src="https://image.flaticon.com/icons/png/512/124/124032.png" alt="instagram"></a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td width='50px'></td>
+                        <td width='5px' bgcolor="lightgray"></td>
+                        <td height='60px'></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <button class="button">push to generate</button>
+    <h2>Copy this:</h2>
+    <code id='res'>
+            
+    </code>
+    <div>
+    </div>
+
+    <!-- <table cellpadding="0" cellspacing="0" width="100%" style="font-family: sans-serif;">
+        <td width='50px'></td>
+        <td width='5px' bgcolor="lightgray"></td>
+        <td height='6px'></td>
+        <tr>
+            <td width='50px'></td>
+            <td width='5px' bgcolor="lightgray"></td>
+            <td style='font-weight: bold; font-size: 16px;display: inline; margin-left: 5px;'>Carl Smith</td>
+        </tr>
+        <tr>
+            <td width='50px'></td>
+            <td width='5px' bgcolor="lightgray"></td>
+            <td style='font-size: 14px; display: inline; margin-left: 5px;'>Project Coordinator</td>
+        </tr>
+        <tr>
+            <td width='50px'></td>
+            <td width='5px' bgcolor="lightgray"></td>
+            <td height='15px'></td>
+        </tr>
+        <tr>
+            <td width='50px'></td>
+            <td width='5px' bgcolor="lightgray"></td>
+            <td style='font-size: 12px;'> <span style="font-weight: bold; margin-left: 10px;">O</span> (614) 123-8360| <span style="font-weight: bold;">M</span> (758) 123-4565</td>
+        </tr>
+        <tr>
+            <td width='50px'></td>
+            <td width='5px' bgcolor="lightgray"></td>
+            <td style='font-size: 12px; margin-left: 10px; display: inline;'><a style="text-decoration: none; color: black;" href="mailto:carlm@landscapingco.ca">carlm@landscapingco.ca</a></td>
+        </tr>
+        <tr>
+            <td width='50px'></td>
+            <td width='5px' bgcolor="lightgray"></td>
+            <td style='font-size: 12px; margin-left: 10px; display: inline;'><a style="text-decoration: none; color: black;" href="http://www.landscapingco.ca/">http://www.landscapingco.ca/</a></td>
+        </tr>
+        <tr>
+            <td width='50px'></td>
+            <td width='5px' bgcolor="lightgray"></td>
+            <td style='font-size: 12px; margin-left: 10px; display: inline;'>21234 River Rd, Edmonton, AB</td>
+        </tr>
+        <tr>
+            <td width='50px'></td>
+            <td width='5px' bgcolor="lightgray"></td>
+            <td height='15px'></td>
+        </tr>
+        <tr>
+            <td width='50px'></td>
+            <td width='5px' bgcolor="lightgray"></td>
+            <td style="display: inline; margin-right: 20px; margin-left: 6px;" width='40px'><a href="#" target="_tblank"><img width='16px' src="https://image.flaticon.com/icons/png/512/124/124011.png" alt="linkedin"></a></td>
+            <td style="display: inline; margin-right: 20px;" width='40px'><a href="#" target="_tblank"><img width='16px' src="https://image.flaticon.com/icons/png/512/1384/1384053.png" alt="facebook"></a></td>
+            <td style="display: inline; margin-right: 20px;" width='40px'><a href="#" target="_tblank" ><img width='16px' src="https://image.flaticon.com/icons/png/512/124/124032.png" alt="instagram"></a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td width='50px'></td>
+            <td width='5px' bgcolor="lightgray"></td>
+            <td height='60px'></td>
+        </tr>
+    </table> -->
+    <script src="/js.js"></script>
+</body>
+</html>
+
